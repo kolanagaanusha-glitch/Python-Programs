@@ -1,0 +1,42 @@
+print("*****")
+print("*    ")
+print("*    ")
+print("*    ")
+print("*****")
+print("    *")
+print("    *")
+print("    *")
+print("*****")
+
+
+  
+print(" *****  *****     ")
+print(" *   *  *         ")
+print(" *****  *****     ")
+print(" *   *      *     ")
+print(" *   *  *****     ")
+
+
+  print("python")
+
+
+  
+print(" *****")
+print(" *   *")
+print(" *****")
+print(" *   *")   
+print(" *   *") 
+
+
+
+ Name="Anusha"
+vlg="dundiralalpadu"
+age=20
+print(f"Hi {Name} i am from {vlg} my age is {age}") 
+
+
+
+  
+
+
+  

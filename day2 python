@@ -1,0 +1,70 @@
+# input format funcation - used to take input from user
+  Example:
+a= input()
+  b= 30
+  print(a+b)
+   OUTPUT: if a=5 
+     then 5+30 = 35
+      if it not possible to addition using input() funcation this error is called "TYPE ERROR"
+            # EXAMPLE 2:
+                   a=input()
+                   b=input()
+                   c=a+b
+                   print(c)
+     OUTPUT:5
+            10
+            15
+       # EXAMPLE 3:
+            a=input()
+                   b=input()
+                   c=a+b
+                   print(c)
+                   print(type(c))
+            
+OUTPUT: 10
+        20
+        30
+        30
+                        # to convert float
+  
+  a=float(input())
+  b=float(input())
+  c=a+b
+  print(c)
+  print(typr(c))
+                   # OUTPUT:
+  20
+  30
+  20.0+30.0
+    =50.0
+                                     #SPLIT()
+    allows multiple values to single line
+         * also used to divide
+    EXAMPLE 1:
+            a,b,c=input().split()
+              print(a,b,c)
+    OUTPUT:
+             20 40 30
+
+#EXAMPLE 2:
+           a=b,c=input()
+             print(a)
+             print(b)
+             print(c)
+
+  OUTPUT:
+        sree vahini college
+          sree
+          vahini
+          college
+                           TEST CASE 1:
+10    10.5     10       0.5
+20    20.5     20.5      6 
+   # PROGRAM:
+                   a=float(input())
+                   b=float(input())
+                    sum=a+b
+                     print(sum)
+  
+                     
+                       

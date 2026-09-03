@@ -1,0 +1,43 @@
+    # AREA OF RECTANGLE
+length=int(input())
+breath=int(input())
+sum=length*breath
+print(sum)
+
+
+      # SIMPLE INTREST 
+ p=int(input())
+t=int(input())
+r=int(input())
+sum=p*t*r/100
+print(sum) 
+
+      # SWAPING TWO NUMBERS
+a=int(input( "Enter a value:"))
+b=int(input("Enter b value:"))
+result=a,b=b,a
+print(result) 
+
+
+  # method 2:
+    a=int(input("Enter a value:"))
+b=int(input("Enter b value:"))
+print("before swaping :")
+print("a:",a)
+print("b:",b)
+temp=a
+a=b
+b=temp
+print("after swaping:")
+print("a:",a)
+print("b:",b)
+
+                      #TOTAL BILL WITH GST
+      bill=float(input())
+gst=float(input())
+gsta=(bill*gst)/100
+total=bill+gsta
+print("total:",total)
+
+                 
+              

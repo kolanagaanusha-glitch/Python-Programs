@@ -1,0 +1,76 @@
+Problem Statement
+
+Find the Longest Word in a String
+
+Write a Python program to read a string containing multiple words and find the longest word in the given string. If multiple words have the same maximum length, print the first longest word.
+
+Python Code
+s = input().strip()
+
+if s:
+    words = s.split()
+    longest = words[0]
+
+    for word in words:
+        if len(word) > len(longest):
+            longest = word
+
+    print(longest)
+else:
+    print("")
+Sample Input
+Python programming language
+Sample Output
+programming
+Another Example
+
+Input:
+
+I love learning Python
+
+Output:
+
+learning
+
+Because learning has 8 characters, which is the longest word.
+
+
+
+
+
+  Problem Statement
+
+Find the Longest Word in a String
+
+Write a Python program to read a string containing multiple words and find the longest word in the string. If two or more words have the same length, print the first longest word.
+
+Code
+s = input().strip()
+
+if s:
+    words = s.split()
+    longest = words[0]
+
+    for word in words:
+        if len(word) > len(longest):
+            longest = word
+
+    print(longest)
+else:
+    print("")
+  
+Sample Input
+  
+Python programming language
+  
+Output
+  
+programming
+
+
+  
+Explanation
+s.split() → separates the sentence into words.
+len(word) → finds the length of each word.
+The for loop compares each word with longest.
+The word with the maximum length is printed.

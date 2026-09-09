@@ -1,0 +1,214 @@
+
+1. What is a List?
+
+A list is a collection of multiple values stored in a single variable.
+
+numbers = [10, 20, 30, 40]
+print(numbers)
+
+Output:
+
+[10, 20, 30, 40]
+2. List Features
+List is ordered
+List is mutable (we can change values)
+List allows duplicate values
+List can store different data types
+List uses square brackets [ ]
+data = [10, "Hello", 20.5, True]
+3. Indexing
+
+List index starts from 0.
+
+numbers = [10, 20, 30, 40]
+
+print(numbers[0])
+print(numbers[2])
+
+Output:
+
+10
+30
+4. Changing List Elements
+numbers = [10, 20, 30]
+
+numbers[1] = 50
+
+print(numbers)
+
+Output:
+
+[10, 50, 30]
+5. Adding Elements
+
+append() – adds an element at the end.
+
+numbers = [10, 20, 30]
+
+numbers.append(40)
+
+print(numbers)
+
+Output:
+
+[10, 20, 30, 40]
+
+insert() – adds an element at a specific position.
+
+numbers = [10, 20, 30]
+
+numbers.insert(1, 15)
+
+print(numbers)
+
+Output:
+
+[10, 15, 20, 30]
+6. Removing Elements
+
+remove() – removes a specific value.
+
+numbers = [10, 20, 30]
+
+numbers.remove(20)
+
+print(numbers)
+
+Output:
+
+[10, 30]
+
+pop() – removes an element using index.
+
+numbers = [10, 20, 30]
+
+numbers.pop(1)
+
+print(numbers)
+
+Output:
+
+[10, 30]
+7. Useful List Functions
+Function	Use
+len()	Find number of elements
+max()	Find largest element
+min()	Find smallest element
+sum()	Find total
+sorted()	Sort the list
+
+Example:
+
+numbers = [30, 10, 20]
+
+print(len(numbers))
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
+print(sorted(numbers))
+
+Output:
+
+3
+30
+10
+60
+[10, 20, 30]
+8. Traversing a List
+
+Using for loop:
+
+numbers = [10, 20, 30, 40]
+
+for num in numbers:
+    print(num)
+
+Output:
+
+10
+20
+30
+40
+9. Checking an Element
+numbers = [10, 20, 30]
+
+if 20 in numbers:
+    print("Found")
+
+Output:
+
+Found
+10. Important List Methods to Practice ⭐
+append()
+insert()
+remove()
+pop()
+clear()
+sort()
+reverse()
+count()
+index()
+
+Practice order: First learn create → indexing → update → append → insert → remove → pop → loops → list functions → list problems.
+
+
+
+
+
+
+Problem Statement
+
+Remove Duplicates from a List while Preserving Order
+
+Write a Python program to remove duplicate elements from a list while keeping the first occurrence of each element in the same order.
+
+Python Code
+# Read number of elements
+n = int(input())
+
+# Read list elements
+lst = []
+
+for i in range(n):
+    lst.append(int(input()))
+
+# Remove duplicates while preserving order
+result = []
+
+for item in lst:
+    if item not in result:
+        result.append(item)
+
+# Print result
+for item in result:
+    print(item, end=" ")
+Sample Input
+8
+1
+2
+3
+2
+4
+1
+5
+3
+Sample Output
+1 2 3 4 5
+Explanation
+
+The given list is:
+
+1 2 3 2 4 1 5 3
+
+1 → keep
+2 → keep
+3 → keep
+2 → duplicate, remove
+4 → keep
+1 → duplicate, remove
+5 → keep
+3 → duplicate, remove
+
+So the final list is:
+
+1 2 3 4 5
